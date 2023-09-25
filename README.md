@@ -10,3 +10,8 @@ Some of the deployment resources in this repository have been extracted from the
 Extracted resources:
 1. play_book.yml
 2. manual_steps.txt
+
+## Pipeline Design
+
+Pseudo pipeline design for GitHub Actions implementation
+![pipeline design](img/design-pipeline.jpeg)

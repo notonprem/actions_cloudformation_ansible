@@ -26,6 +26,7 @@
     sudo amazon-linux-extras install ansible2 -y
 
 9. create inventory file
+    input server public addresses to file
 
 10. create playbook
 
@@ -38,4 +39,4 @@ inventory = inventory
 private_key_file = ~/.ssh/id_rsa
 
 13. run the ansible playbook
-    ansible-playbook deploy-techmax.yml
+    ansible-playbook play_book.yml
